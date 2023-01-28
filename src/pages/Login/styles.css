@@ -1,0 +1,37 @@
+*,
+::after,
+::before {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.login-container {
+  height: 100vh;
+}
+
+.right-content {
+  width: 45%
+}
+
+.left-content {
+  width: 55%
+}
+
+.label-input {
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: white;
+}
+
+.input-group {
+  position: relative;
+}
+
+.eye {
+  position: absolute;
+  right: 10px;
+  top: 50px;
+  cursor: pointer;
+  z-index: 99;
+}
